@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarsToday", "MarsToday\MarsToday.csproj", "{24C7681F-3BAD-4E3E-A506-5908BC2C481E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarsToday.Web", "MarsToday.Web\MarsToday.Web.csproj", "{74182603-7036-4ADC-BC35-B048692ED5C9}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{9BAB3D9A-51CB-490F-B284-972DD9C8755C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{24C7681F-3BAD-4E3E-A506-5908BC2C481E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{24C7681F-3BAD-4E3E-A506-5908BC2C481E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{24C7681F-3BAD-4E3E-A506-5908BC2C481E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{24C7681F-3BAD-4E3E-A506-5908BC2C481E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74182603-7036-4ADC-BC35-B048692ED5C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74182603-7036-4ADC-BC35-B048692ED5C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74182603-7036-4ADC-BC35-B048692ED5C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74182603-7036-4ADC-BC35-B048692ED5C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BAB3D9A-51CB-490F-B284-972DD9C8755C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BAB3D9A-51CB-490F-B284-972DD9C8755C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BAB3D9A-51CB-490F-B284-972DD9C8755C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BAB3D9A-51CB-490F-B284-972DD9C8755C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

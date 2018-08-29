@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  marstoday.web:
+    image: ${DOCKER_REGISTRY}marstodayweb
+    build:
+      context: .
+      dockerfile: MarsToday.Web\Dockerfile

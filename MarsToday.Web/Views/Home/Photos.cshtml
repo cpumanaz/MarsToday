@@ -1,0 +1,32 @@
+﻿@model IEnumerable<MarsToday.Web.Models.Photo>
+
+@{
+    ViewData["Title"] = "Photos";
+}
+
+<h2>Photos</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Image ID</th>
+            <th>Rover</th>
+            <th>Image Date</th>
+            <th>Image Link</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>@item.id </td>
+            <td>@item.rover.name</td>
+            <td>@item.earth_date</td>
+            <td>
+                <a href="@item.img_src" target="_blank">
+                    <img src="@item.img_src" style="width:100px;height:100px;">
+                </a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
